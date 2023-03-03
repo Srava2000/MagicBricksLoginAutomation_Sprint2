@@ -52,7 +52,7 @@ def step_impl(context,data):
 
 @step(u'User is able to click on the Next button Field for second dataset')
 def step_impl(context):
-        expectedTitle = 'abcd login'
+        expectedTitle = 'User Login'
         actualTitle = context.driver.title
         print(actualTitle)
 

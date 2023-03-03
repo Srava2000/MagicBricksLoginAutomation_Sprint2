@@ -37,7 +37,7 @@ Feature: MagicBricks Login
     Examples:
     | valid_data          |
     | sravani@gmail.com   |
-    | 9876898765          |
+    | 7386674642          |
 
 
 
