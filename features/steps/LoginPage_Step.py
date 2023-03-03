@@ -75,7 +75,7 @@ def step_impl(context):
 
 @when(u'User click on the About Us text link')
 def step_impl(context):
-    context.driver.implicitly_wait(10)
+    time.sleep(10)
     aboutUs = LoginPageClass(context.driver)
     aboutUs.click_about_us()
 
